@@ -1,4 +1,4 @@
-public class PrimitiveDataTypes {
+public class week2_program1 {
     public static void main(String[] args) {
         byte b = 100;
         short s = 2000;
