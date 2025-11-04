@@ -1,8 +1,4 @@
-package Week2;
 
-public class week2_program3 {
-    
-}
 import java.util.Scanner;
 class week2_program3 {
     public static void main(String[] args) {

@@ -1,11 +1,13 @@
+
+
 public class week2_program1 {
     public static void main(String[] args) {
-        byte b = 100;
-        short s = 2000;
-        int i = 100000;
-        long l = 10000000000L;
-        float f = 12.34f;
-        double d = 123.456;
+        byte b = 10;
+        short s = 200;
+        int i = 5000;
+        long l = 2000000000L;
+        float f = 5.75f;
+        double d = 19.99;
         char c = 'A';
         boolean bool = true;
 
@@ -19,3 +21,4 @@ public class week2_program1 {
         System.out.println("boolean: " + bool);
     }
 }
+
