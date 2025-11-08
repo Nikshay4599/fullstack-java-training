@@ -1,15 +1,16 @@
-package Week2;
+
 
 public class week2_program2 {
     public static void main(String[] args) {
-        // Implicit (widening)
-        int i = 100;
-        double d = i;
-        System.out.println("Implicit conversion int to double: " + d);
+        // Implicit Conversion
+        int a = 10;
+        double b = a;
 
-        // Explicit (narrowing)
+        // Explicit Conversion
         double x = 9.78;
         int y = (int) x;
-        System.out.println("Explicit conversion double to int: " + y);
+
+        System.out.println("Implicit (int to double): " + b);
+        System.out.println("Explicit (double to int): " + y);
     }
 }

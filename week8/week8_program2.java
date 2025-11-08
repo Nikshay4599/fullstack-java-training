@@ -1,0 +1,27 @@
+
+package week8;
+
+class InvalidAgeException extends Exception {
+    public InvalidAgeException(String message) {
+        super(message);
+    }
+}
+
+public class week8_program2 {
+
+    static void checkAge(int age) throws InvalidAgeException {
+        if (age < 18) {
+            throw new InvalidAgeException("Age must be 18 or above to vote.");
+        } else {
+            System.out.println("Eligible to vote.");
+        }
+    }
+
+    public static void main(String[] args) {
+        try {
+            checkAge(15); // change this to test different cases
+        } catch (InvalidAgeException e) {
+            System.out.println("Exception: " + e.getMessage());
+        }
+    }
+}
